@@ -4,10 +4,11 @@ import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
 export const metadata = {
-  title: "Promptopia",
-  description: "Discover & Share AI Prompts",
+  title: "Promptopia :)",
+  description: "Discover & Share AI Prompts :)",
 };
 
+// layout.jsx och page.jsx är Server side, så de syns i View source
 const RootLayout = ({ children }) => (
   <html lang='en'>
     <body>
