@@ -81,6 +81,7 @@ const Feed = () => {
       </form>
 
       {/* All Prompts */}
+      {/* PromptCardList genereras (såklar) client side och skickas inte som HTML från servern */}
       {searchText ? (
         <PromptCardList
           data={searchedResults}

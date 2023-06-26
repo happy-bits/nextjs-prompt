@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+// Denna är server side så kommer visas i view source (!)
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
   return (
     <section className='w-full max-w-full flex-start flex-col'>
