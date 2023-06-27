@@ -6,7 +6,15 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Form from "@components/Form";
 
 const UpdatePrompt = () => {
+  /*
+  OO: If you want to access the router object inside any function component in your app, you can use the useRouter hook  
+  */
   const router = useRouter();
+  /*
+  OO:
+  useSearchParams is a Client Component hook that lets you read the current URL's query string.
+  https://nextjs.org/docs/app/api-reference/functions/use-search-params
+  */
   const searchParams = useSearchParams();
   const promptId = searchParams.get("id");
 
@@ -24,6 +32,7 @@ const UpdatePrompt = () => {
       });
     };
 
+    // Här ska inte "await" användas (standard React)
     if (promptId) getPromptDetails();
   }, [promptId]);
 
@@ -43,6 +52,9 @@ const UpdatePrompt = () => {
       });
 
       if (response.ok) {
+        /*
+        Navigerar till url'en
+        */
         router.push("/");
       }
     } catch (error) {

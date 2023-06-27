@@ -12,9 +12,11 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        'primary-orange': '#FF5722',
+        // OO: Nu kan du använda en Tailwindklass som bg-primary-orange
+        'primary-orange': '#FF5722', 
       }
     },
   },
   plugins: [],
 }
+

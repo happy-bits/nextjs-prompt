@@ -1,3 +1,20 @@
+/*
+OO:
+
+A loading file can create instant loading states
+
+File conventions
+- default.js
+- error.js
+- layout.js
+- loading.js
+- not-found.js
+- page.js
+- route.js
+- template.js
+https://nextjs.org/docs/app/api-reference/file-conventions/loading
+
+*/
 import Image from "next/image";
 
 const Loading = () => {

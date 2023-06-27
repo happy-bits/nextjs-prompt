@@ -1,7 +1,16 @@
+/*
+OO:
+
+The presence of jsconfig.json file in a directory indicates that the directory is the root of a JavaScript Project
+
+ It's a configuration file to assist your text editor. 
+
+ Här konfigureras webpack så vi lättare kan referera till absolut sökväg
+*/
 {
   "compilerOptions": {
     "paths": {
-      "@*": ["./*"]
+      "@*": ["./*"] // @ 
     }
   }
 }
