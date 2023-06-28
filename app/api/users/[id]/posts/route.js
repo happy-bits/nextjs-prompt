@@ -1,15 +1,10 @@
 import Prompt from "@models/prompt";
 import { connectToDB } from "@utils/database";
 /*
-OO:
 
-Route Handlers allow you to create custom request handlers for a given route using the Web Request and Response APIs.
+'Route Handlers' gör att du kan skapa egna 'request handlers' som GET, POST, PUT, PATCH, DELETE, HEAD, and OPTIONS
 
-Route Handlers are only available inside the app directory.
-
-Route Handlers are defined in a route.js|ts file inside the app directory:
-
-The following HTTP methods are supported: GET, POST, PUT, PATCH, DELETE, HEAD, and OPTIONS
+'Route Handlers' kan bara användas inuti 'app'-mappen. De definieras i en route.js fil (eller route.ts)
 
 https://nextjs.org/docs/app/building-your-application/routing/router-handlers
 */

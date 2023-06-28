@@ -4,13 +4,11 @@ import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
 /*
-OO:
-The metadata object and generateMetadata function exports are only supported in Server Components.
+I Server Componentent kan 'metadata object' exporter göras för att manipulera html
 
-Behöver heta just "metadata"
+Namnet på konstanten behöver vara just 'metadata'
+
 https://nextjs.org/docs/app/api-reference/functions/generate-metadata
-
-
 
 */
 export const metadata = {
@@ -18,11 +16,11 @@ export const metadata = {
   description: "Discover & Share AI Prompts :)",
 };
 
-// OO: layout.jsx och page.jsx är Server side, så de syns i View source
+// layout.jsx och page.jsx är Server side, så de syns i View source
 const RootLayout = ({ children }) => (
   <html lang='en'>
     <body>
-      {/* OO: Provider gör att vi håller koll på sessionen genom hela appen */}
+      {/* Provider omsluter hela appen och gör att vi har koll på  sessionen genom hela appen */}
       <Provider>
         <div className='main'>
           <div className='gradient' />

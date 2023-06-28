@@ -1,9 +1,7 @@
 /*
-OO:
+Denna fil loading.jsx används automatiskt när en komponent laddas in.
 
-A loading file can create instant loading states
-
-File conventions
+Andra filer med speciell betydelse:
 - default.js
 - error.js
 - layout.js
@@ -12,6 +10,7 @@ File conventions
 - page.js
 - route.js
 - template.js
+
 https://nextjs.org/docs/app/api-reference/file-conventions/loading
 
 */

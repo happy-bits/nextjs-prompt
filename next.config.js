@@ -5,13 +5,14 @@ const nextConfig = {
     serverComponentsExternalPackages: ["mongoose"],
   },
   images: {
-    // OO: Allow images from this domain
+    // Tillåt även bilder från denna domän
     domains: ['lh3.googleusercontent.com'],
   },
   webpack(config) {
     /*
-    OO:
-    The topLevelAwait option transforms a module into an async module when an await is used at the top level. Starting from webpack version 5.83.0, this feature is enabled by default. 
+    topLevelAwait:true för senare versioner av webpack (efter 5.83.0). Så flaggan kanske inte behövs
+
+    Om 'await' används i toppen på en modul (fil) så transformeras modulen till en 'async'-modul
     */
     config.experiments = {
       ...config.experiments,

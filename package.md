@@ -1,14 +1,14 @@
 # Vad?
 
-OO: Denna fil beskriver ett par paket från package.json
+Denna fil beskriver ett par paket från package.json
 
 # next-auth
 
-NextAuth.js is a complete open source authentication solution.
+En lösning för authentication. Open source.
 
-It is designed from the ground up to support Next.js and Serverless.
+Har inbyggda providers (Google, Facebook, Github), JWT, JWE.
 
-If you want a full-featured authentication system with built-in providers (Google, Facebook, GitHub…), JWT, JWE, email/password, magic links and more… use next-auth.
+Designad för att stödja Next.js och Serverless.
 
 https://next-auth.js.org/getting-started/introduction
 
@@ -16,12 +16,12 @@ https://nextjs.org/docs/pages/building-your-application/routing/authenticating
 
 # mongodb
 
-MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+En dokument-orienterad databas. Dokumnenten liknar JSON och man kan välja att ha scheman.
 
 # mongoose
 
-Mongoose is a JavaScript object-oriented programming library that creates a connection between MongoDB and the Node.js JavaScript runtime environment.
+Kopplar ihop MongoDB och JavaScript runtime.
 
 # bcrypt
 
-bcrypt is a password-hashing function
+För att hasha lösenord

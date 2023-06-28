@@ -7,12 +7,13 @@ import Form from "@components/Form";
 
 const UpdatePrompt = () => {
   /*
-  OO: If you want to access the router object inside any function component in your app, you can use the useRouter hook  
+  Ett 'hook'
   */
   const router = useRouter();
   /*
-  OO:
-  useSearchParams is a Client Component hook that lets you read the current URL's query string.
+  
+  'useSearchParams' är en Client Component hook som låter dig läsa querysträngen
+
   https://nextjs.org/docs/app/api-reference/functions/use-search-params
   */
   const searchParams = useSearchParams();

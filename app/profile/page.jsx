@@ -10,14 +10,11 @@ const MyProfile = () => {
   const router = useRouter();
 
   /*
-  OO:
-  
-  The useSession() React Hook in the NextAuth.js client is the easiest way to check if someone is signed in.  
+  useSession är en 'React Hook' under 'next-auth' och är det enklaste sättet att hålla reda på om någon är inloggad
 
   useSession returnerar 'data' (och även 'status', men det plockas inte upp här)
 
-  en konstant skapas med namnet 'session'
-  (konstanten 'data' skapas inte)
+  Detail: konstanten får namnet 'session' ('data' skapas inte)
   */
   const { data: session } = useSession();
 
