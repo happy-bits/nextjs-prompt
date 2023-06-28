@@ -12,3 +12,10 @@ npm install
 # Kör
 
 npm run dev
+
+# Demo av appen
+
+I Demo.md finns idé hur du demo'ar appen.
+
+
+
