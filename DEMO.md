@@ -35,7 +35,7 @@ Gå genom filerna i roten
 
 # styles/global.css
 
-- Tailwind
+- Använder Tailwind
 - Ändra .gradient -> opacity till 0.95
 - @apply directive -> .black_btn ändra
 
@@ -89,6 +89,8 @@ Funktionen körs och gör anrop mot /api/prompt/new
 # app/api/prompt/new/route.js
 
 Körs på servern
+
+Testa console.log(prompt)
 
 Sparar i databasen
 
